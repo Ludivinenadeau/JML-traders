@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JML Traders", "JML Traders.csproj", "{C39CFF66-5378-4EB9-9446-54F8596122BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JML Traders.Tests", "..\JML Traders.Tests\JML Traders.Tests.csproj", "{3F11E2D5-2DB1-48BD-B5B9-6C25EE7BA4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39CFF66-5378-4EB9-9446-54F8596122BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39CFF66-5378-4EB9-9446-54F8596122BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39CFF66-5378-4EB9-9446-54F8596122BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39CFF66-5378-4EB9-9446-54F8596122BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F11E2D5-2DB1-48BD-B5B9-6C25EE7BA4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F11E2D5-2DB1-48BD-B5B9-6C25EE7BA4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F11E2D5-2DB1-48BD-B5B9-6C25EE7BA4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F11E2D5-2DB1-48BD-B5B9-6C25EE7BA4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9AB766E-E323-482A-8EC0-F2390DE93B3E}
+	EndGlobalSection
+EndGlobal

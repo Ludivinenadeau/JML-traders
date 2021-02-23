@@ -1,0 +1,7 @@
+.col-sm{
+    background-color: blue;
+    font-family: white;
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid white; /* auront une bordure de 1px */
+}

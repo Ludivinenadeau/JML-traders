@@ -1,0 +1,45 @@
+body{
+  /*font-family: sans-serif;*/
+  font-family:'Roboto';
+  text-align: center;
+  margin-top: 50px;
+}
+input{
+  width:300px;
+}
+h1{
+  font-weight: 500;
+  font-size: 35px;
+}
+h2{
+  font-weight: 500;
+  font-size: 30px;
+}
+.buttonSubmit{
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none; color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.buttonSubmit:hover{
+  background-color: #317734;
+}
+.buttonRefresh{
+  border-radius: 4px;
+  background-color: #d83737;
+  border: none; color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.buttonRefresh:hover {
+  opacity: 1;
+  background-color: #4CAF50;
+}

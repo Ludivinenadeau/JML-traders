@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+    <head>
+    <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      <title>TP1</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="assets/style.css"/>
+    </head>
+    <body>
+      <!--Construisez une page html avec un bouton et un champ number. Le but est de trouver un nombre entre 0 et 100. A chaque réponse la page répond :
+    plus
+    moins
+    correcte
+    Quand la réponse est trouvée, on obtient le nombre d'essais que l'on a fait.-->
+    <img src="assets/img/box.jpg" alt="boite mystère">
+    <h1>Essayes de trouver le nombre mystere ...</h1>
+        <form class="form" action="index.html" method="post">
+        <!-- zone de saisie du nombre -->
+        <input type="text" name="nbUser" id="nbUser" placeholder="tapez votre nombre ici"/>
+        <!-- button d'envoi -->
+        <button type="button" name="buttonSubmit" class="buttonSubmit">Envoi</button>
+        </form>
+    <div class="indication">
+      <p class="intervalle">Le chiffre mystère est un entier entre 0 et 100.</p>
+      <h2>Bonne chance.</h2>
+      <h3></h3>
+      <h4></h4>
+        
+        <p class="arrayTry"></p>
+        <button type="button" name="buttonRefresh" class="buttonRefresh">Nouvelle partie</button>
+    </div>
+    <div id="divElement"></div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    </body>
+</html>

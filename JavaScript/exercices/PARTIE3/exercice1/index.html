@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Exercice 1</title>
+  </head>
+  <body>
+      <!--Dans le fichier HTML fourni, au survol de l'image ajouter une bordure de 3px rouge 
+        et la retirer quand la souris ne la survole plus.-->
+    <img src="assets/img/image1.jpg" id="image1" onmouseover=assignBorder(this); onmouseout=removeBorder(this); />
+    <!--on definit l'image qui doit changer au survol-->
+    <script>
+
+        function assignBorder()
+        {
+            document.getElementById('image1').style.border = 'solid red 3px';//on definit
+        }
+        function removeBorder(){
+            document.getElementById('image1').style.border = 'none';
+        }
+    </script>
+  </body>
+</html>

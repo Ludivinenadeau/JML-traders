@@ -1,0 +1,15 @@
+.textGreen{
+  color: green;
+  font-size: 1em;
+  font-weight: bold;
+}
+.textBlue {
+  color: blue;
+  font-size: 2em;
+  font-style: italic;
+}
+.textRed {
+  color: red;
+  font-size: 3em;
+  font-variant:small-caps;
+}

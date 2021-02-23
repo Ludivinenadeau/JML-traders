@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+      <meta charset="utf-8" />      
+      <title>TP2</title>
+      <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!--Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+    Calculer sa moyenne et déterminer son appréciation.
+
+    Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : En dessous de la moyenne.
+    Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : Moyen.
+    Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : Bien.
+    Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : Très bien.
+    Si la moyenne de l'élève est égale à 20, il aura comme appréciation : Excellent.
+    Afficher la moyenne et l'appréciation de l'élève.-->
+    <img src="assets/images/images.jpg" class="displayed" id="photo" alt="annonce remise du bulletin scolaire"/>
+        <form style="text-align: center;">
+          <p>Première note: <input name="firstNote" type="text" id="firstNote" placeholder="première note"/></p>
+          <p>Deuxième note: <input name="secondNote" type="text" id="secondNote" placeholder="deuxième note"/></p>
+          <p>Troisème note: <input name="thirdNote" type="text" id="thirdNote" placeholder="troisième note"/></p>
+          <p>Quatrième note: <input name="fourthNote" type="text" id="fourthNote" placeholder="Quatrième note"/></p>
+          <p>Cinquième note: <input name="fithNote" type="text" id="fithNote" placeholder="Cinquième note"/></p>
+          <button type="button" id="average">calcul de la moyenne</button>
+          <p style="text-align: center;"><b><span id="verification"></span></b></p>
+        </form>
+        <div id="results" style="text-align: center;">
+          <h1><img src="assets/images/laurier.jpg" id="flower"><u>Résultats</u><img src="assets/images/laurier.jpg" id="flower"></h1>
+          <p>Moyenne : <span id="averageCal"></span></p>
+          <p><span id="appreciation"></span></p>
+        </div>
+          
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
